@@ -1,0 +1,14 @@
+package com.software.cprk.`2_Control_Statements`.`20_continuestatement`
+
+fun main (args: Array<String>) {
+    var number = 100.0f
+    var x = -10.0f
+    while (x < 10.0f) {
+        if(x == 0.0f){
+            x++
+            continue
+        }
+        println(number/x)
+        x++
+    }
+}
